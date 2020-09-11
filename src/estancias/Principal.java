@@ -10,6 +10,7 @@ public class Principal {
 
     public static void main(String[] args) throws Exception {
         Scanner leer = new Scanner(System.in).useDelimiter("\n");
+        System.out.println("Bienvenido breu");
         familiaService fS = new familiaService();
         casaService cS = new casaService();
         estanciaService eS = new estanciaService();
